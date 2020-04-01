@@ -1,8 +1,8 @@
-## BayesianChangePointJS Detection
+## Bayesian Online ChangePoint JS Detection
 
 [![Edit BayesianChangePointJS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/hopeful-hawking-vpftt?fontsize=14&hidenavigation=1&theme=dark)
 
-Pure JavaScript/TypeScript Bayesian changepoint detection for Browsers & NodeJS.
+Pure JavaScript/TypeScript implementation of [Bayesian Online Changepoint](https://arxiv.org/pdf/0710.3742.pdf) detection which runs for Browsers & NodeJS.
 
 ## Example
 
@@ -45,3 +45,7 @@ assert.deepEqual(indicies(detection.breakPoints()), [4, 8]);
 npm install
 npm test
 ```
+
+## Credits
+
+Based off of [Bayesian Online Changepoint](https://arxiv.org/pdf/0710.3742.pdf)
