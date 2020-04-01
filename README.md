@@ -1,13 +1,6 @@
 ## BayesianChangePointJS Detection
 
-Starter with Typescript + React + Express (for quick prototypes)
-
-## Installation
-
-```bash
-npm install
-npm test
-```
+Pure JavaScript/TypeScript Bayesian changepoint detection for Browsers & NodeJS
 
 ## Example
 
@@ -42,4 +35,11 @@ detection.exec([10, 10, 10, 10, 5000, 5000, 5000, 5000, 30, 30, 30, 30, 30]);
 
 assert.deepEqual(values(detection.breakPoints()), [5000, 30]);
 assert.deepEqual(indicies(detection.breakPoints()), [4, 8]);
+```
+
+## Installation
+
+```bash
+npm install
+npm test
 ```
