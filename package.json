@@ -1,0 +1,40 @@
+{
+  "name": "bayesian-changepoint",
+  "version": "1.0.0",
+  "main": "./lib/BayesianChangePoint.js",
+  "typings": "./lib/BayesianChangePoint.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "npx tsc",
+    "test": "npx mocha -r ts-node/register ./spec/*.ts"
+  },
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "bayesian",
+    "changepoint",
+    "detection",
+    "javascript"
+  ],
+  "author": "Mathew Kurian <mwkurian@gmail.com.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mathew-kurian/BayesianChangePointJS.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mathew-kurian/BayesianChangePointJS/issues"
+  },
+  "homepage": "https://github.com/mathew-kurian/BayesianChangePointJS#readme",
+  "description": "Useful Grid algorithm from Material-UI (https://github.com/mui-org/material-ui)",
+  "dependencies": {},
+  "peerDependencies": {},
+  "devDependencies": {
+    "@types/mocha": "^7.0.2",
+    "@types/node": "^13.9.8",
+    "mocha": "^7.1.1",
+    "ts-node": "^8.8.1",
+    "typescript": "3.7.5"
+  }
+}
