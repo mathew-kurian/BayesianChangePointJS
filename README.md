@@ -1,6 +1,8 @@
 ## BayesianChangePointJS Detection
 
-Pure JavaScript/TypeScript Bayesian changepoint detection for Browsers & NodeJS
+[![Edit BayesianChangePointJS](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/hopeful-hawking-vpftt?fontsize=14&hidenavigation=1&theme=dark)
+
+Pure JavaScript/TypeScript Bayesian changepoint detection for Browsers & NodeJS.
 
 ## Example
 
