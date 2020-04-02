@@ -1,6 +1,6 @@
 {
   "name": "bayesian-changepoint",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "./lib/BayesianChangePoint.js",
   "typings": "./lib/BayesianChangePoint.d.ts",
   "scripts": {
